@@ -36,3 +36,9 @@ mylist.sort()
 print(mylist)
 mylist.sort(key = str.lower)
 print(mylist)
+
+
+
+
+a,b = 100,200
+print(f'a = {a}, b = {b}')
