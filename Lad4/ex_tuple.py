@@ -39,25 +39,21 @@ while i < len (mytuple):
 mylist = list(mytuple)
 print(mylist)
 print(type(mylist))
-mytuple[-1] = 'mango'
+# change data in list
+mylist[-1] = 'mango'
 print(mylist)
-
-mytuple = 'mango'
+# add data in list
+mylist.append('apple')
 print(mylist)
-
-mytuple = 'mango'
+# remove data in list
+mylist.remove('apple')
 print(mylist)
-
-
-
-
-#list --> tuple
+# list --> tuple
 mytuple = tuple(mylist)
 print(mytuple)
-
-# del
- del mytuple
-#print(mytuple)
+# del keyword  -- > delete completely
+del mytuple
+#print(mytuple)  # error
 
 
 
