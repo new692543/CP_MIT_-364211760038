@@ -13,19 +13,19 @@ print(type(y)) # แสดงชนิดข้อมูลของตัวแ
 print('x is ',x,'and y is ',y,'') # แสดงผลค่าตัวแปร x และ y โดยมีข้อความดังนี้  "x is 100 and y is 200"
 
 z = x+y  # หาผลรวมของตัวแปร x และ y และเก็บไว้ในตัวแปร z
-print(z) # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
+print(f'z = {z}')    # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
 
 z = x-y  # หาผล][ของตัวแปร x และ y และเก็บไว้ในตัวแปร z
-print(z) # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
+print(f'z = {z}')   # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
 
 z = x*y  # หาผลคูณของตัวแปร x และ y และเก็บไว้ในตัวแปร z
-print(z) # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
+print(f'z = {z}')   # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
 
 z = x/z   # หาผลหารแบบจำนวนเต็ม (floor division) ของตัวแปร x และ y และเก็บไว้ในตัวแปร z
-print(z)  # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
+print(f'z = {z}')   # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
 
 z = x%z    # หาผลหารของตัวแปร x และ y และเก็บไว้ในตัวแปร z
-print(z)   # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
+print(f'z = {z}')   # แสดงผลค่าตัวแปร z formatted print  -- > print(f{...})
 
 
 
