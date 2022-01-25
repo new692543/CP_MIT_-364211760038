@@ -39,19 +39,23 @@ while i < (len(mylist)):
 
 
 # เพิ่มข้อมูล 100,200,300 ใน myList
-myList = [100,200,300]
-print(myList)
+mynum = myList
+mynum.append(100)
+mynum.append(200)
+mynum.append(300)
+print(mynum)
 
-print(myList)
-myList[0] = 1000
-print(myList)
-myList[-1] = 3000
-print(myList)
-#add data into list
 
-# เพิ่มข้อมูล 400 ใน myList ในตำแหน่งที่ 0
-# เพิ่มข้อมูล 500 ใน myList ในตำแหน่งที่ 3
-# แสดงผลข้อมูลใน myList ทั้งหมด
+
+
+mynum[0] = 400  # เพิ่มข้อมูล 400 ใน myList ในตำแหน่งที่ 0
+print(mynum)
+mynum[2] = 500 # เพิ่มข้อมูล 500 ใน myList ในตำแหน่งที่ 3
+print(mynum)    # แสดงผลข้อมูลใน myList ทั้งหมด
+
+
+
+
 
 # ลบข้อมูล 10
 # ลบข้อมูล 100
