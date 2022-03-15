@@ -33,8 +33,8 @@ def myfuncF(**num): #num --> dictionary
     print(f'total value from myfuncF: {t}')
 
 # default parameter
-def myfuncG('country = thailand'):
-    print('country')
+#def myfuncG('country = thailand'):
+ #   print('country')
 
 
 #calling function
@@ -49,8 +49,8 @@ print(re)
 myfuncE(z=100,x=200,y=300)
 myfuncF(num1=100,num2=200,num3=300)
 # default parameter
-myfuncG(
-    myfuncG('maylasia')
+#myfuncG(
+  #  myfuncG('maylasia')
 
 
 
